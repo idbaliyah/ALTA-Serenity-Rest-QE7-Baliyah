@@ -27,7 +27,6 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
-
         <!-- Serenity Dependencies -->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
@@ -65,7 +64,6 @@
             <version>${serenity.cucumber.version}</version>
             <scope>test</scope>
         </dependency>
-
         <!-- libraries used directly from serenity-core-->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -93,7 +91,6 @@
             <artifactId>groovy-xml</artifactId>
             <version>3.0.6</version>
         </dependency>
-
         <!-- General test libraries -->
         <dependency>
             <groupId>junit</groupId>
@@ -113,6 +110,14 @@
             <version>2.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.3</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
